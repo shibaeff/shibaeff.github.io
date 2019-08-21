@@ -1,0 +1,49 @@
+# Site settings
+title : Example
+description: Example
+baseurl: ''
+url: 'https://google.com'
+collections:
+  svgs:
+  tips:
+  works:
+# Site settings
+
+# Author info
+author :
+  name : Pavel Shibaev
+  title: CS Freshman @ Moscow State University
+  email : shiba.p@ya.ru
+  github :
+    user: shibaeff
+    url: https://github.com/shibaeff
+#  linkedin:
+#    user: jdoe
+#    url: https://www.linkedin.com/in/jdoe
+#  ruby-gems:
+#    user: jdoe
+#    url: https://rubygems.org/profiles/jdoe
+#  ko-fi:
+#    user: jdoe
+#    url: https://ko-fi.com/jdoe
+
+# Author info
+
+# Build settings
+safe: false
+theme: devterm
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+sass:
+  sass_dir: _sass
+  style: compressed
+exclude: ['LICENSE.txt', 'README.md']
+# Build settings
+
+# Compress HTML settings
+# More info here: http://jch.penibelst.de/
+compress_html:
+  blanklines: true
+  comments: ['<!-- ', ' -->']
+# Compress HTML settings
